@@ -1,0 +1,52 @@
+nav {
+	background-color: lightseagreen;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+	nav {
+		text-align: center;
+		background-color:  yellow;
+	}
+
+	li {
+		list-style: none;
+		display: inline-block;
+		padding:  10px;
+		font-size: 25px;
+	}
+}
+
+@media all and (max-width: 480px) { 
+	nav {
+		background-color:  pink;
+	}
+
+	li {
+		list-style: none;
+		padding:  10px;
+		font-size: 25px;
+		color: red;
+	}
+}
+
+
+div {
+	font-size:  30px;
+}
+
+.one {
+	background-color: lightblue;
+	font-size:  2em;
+}
+
+.two {
+	background-color: lightgreen;
+	font-size:  1em;
+}
+
+@media all and (max-width: 480px) { 
+	div {
+		font-size:  15px;
+
+	}
+}

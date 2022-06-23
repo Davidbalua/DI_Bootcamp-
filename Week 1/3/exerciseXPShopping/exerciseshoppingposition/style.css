@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+nav {
+	border: 2px solid black;
+	position: relative;
+}
+
+.productlink {
+	position:  absolute;
+	right: 5%;
+	top: 40%;
+}
+
+.products {
+	border: 2px solid blue;
+}
+
+.products div {
+	border: 2px solid red;
+	width:  24vw;
+	display: inline-block;
+}
+
+@media all and (max-width: 800px){
+	.products div {
+		border: 2px solid yellow;
+		width:  30vw;
+		display: inline-block;
+	}
+}
