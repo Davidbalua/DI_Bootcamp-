@@ -52,3 +52,43 @@ function isDivisible(){
 	}
 	console.log(sum);
 }
+
+console.log("\n");
+console.log("exercise 4-------------------------------------------------------------------------") 
+console.log("\n");
+
+let stock = { 
+    "banana": 6, 
+    "apple": 0,
+    "pear": 12,
+    "orange": 32,
+    "blueberry":1
+}  
+
+let prices = {    
+    "banana": 4, 
+    "apple": 2, 
+    "pear": 1,
+    "orange": 1.5,
+    "blueberry":10
+} 
+
+const shoppingList = ["banana", "orange", "apple"];
+
+let x = myBill();
+
+function myBill() {
+
+	//stock.banana--;
+	//console.log(stock.banana);
+	for (let x of shoppingList) {
+
+	console.log(x);
+	console.log(stock.x);
+
+	}
+	//let totalPrice = prices.shoppingList[0];
+	//return totalPrice;
+  }
+
+  console.log(x);
